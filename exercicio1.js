@@ -19,3 +19,9 @@ if (AnoNascimento % 2 ==0) {
 
 console.log("Olá ", nome, ", você tem ", idade, " anos que é um número ", IdadeParOuImpar, 
 "e nasceu no ano de ", AnoNascimento, " que é um ano ", AnoParOuImpar)
+
+if(idade >= 18) {
+    console.log("Está liberado o consumo de bebidas alcoólicas")
+} else {
+    "Você é menor de idade"
+}
